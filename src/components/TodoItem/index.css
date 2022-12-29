@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.itemsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  color: #000000;
+  padding-right: 10px;
+  text-align: left;
+}
+.TodoItem {
+  list-style: none;
+  padding: 5px;
+}
+.deleteButton {
+  border: #ff0b37 2px solid;
+  color: #ff0b37;
+  border-radius: 10px;
+  padding: 5px 15px;
+  align-self: center;
+}
